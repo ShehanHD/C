@@ -1,0 +1,122 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int agg();
+void stamp();
+void cal();
+void nomimate(char nMat[],int dim);
+
+int main(){
+int x;
+
+printf("\n1 per Scrivere\n2 per Leggere\n3 per Calcolare\n0 per Uscire\n");
+scanf("%d",&x);
+
+do{
+    switch (x){
+      case 1:
+        agg();
+        break;
+      case 2:
+        stamp();
+        break;
+      case 3:
+        cal();
+        break;
+      case 0:
+        printf("ARRIVIDERCI!");
+        break;
+    }
+}while(x!=0);
+
+
+return 0;
+}
+
+
+int agg(){
+    int i,x;
+    char mat[10];
+    float vot,pes;
+
+    FILE * fp = fopen("votoPesato","w");
+
+i=0;
+do{
+
+        printf("%d_Materia\t:",i+1);
+        scanf("%s",mat);
+        nomimate(mat,10);
+        printf("%d_VOTO\t:",i+1);
+        scanf("%f",&vot);
+        printf("%d_PESO\t:",i+1);
+        scanf("%f",&pes);
+        fprintf(fp,"%s %f %f\n",mat,vot,pes);
+i++;
+        printf("\nVuole continuare?\n1 per SI\n0 per NO\n\n");
+        scanf("%d",&x);
+
+    }while(x!=0);
+    fclose(fp);
+    return 0;
+}
+
+
+void stamp(){
+int x;
+char ric;
+char mat[10];
+float vot,pes;
+FILE * fp = fopen("votoPesato","r");
+
+printf("quale materie vuoi stampare?");
+scanf("%s",ric);
+
+    while(!feof(fp)){
+        fscanf(fp,"%s %f %f",mat,&vot,&pes);
+
+    if(x==1){
+    if(!feof(fp)){printf("%s %f %f\n",mat,vot,pes);}
+    }
+    if(x==2){
+
+    }
+    }
+fclose(fp);
+main();
+}
+
+
+void cal(){
+    char mat[10];
+    float vot,pes;
+    float som=0;
+    float somPes=0;
+
+
+    FILE * fp = fopen("votoPesato","r");
+
+    while(!feof(fp)){
+        fscanf(fp,"%s %f %f",mat,&vot,&pes);
+        som+=(vot*pes);
+        somPes+=pes;
+        vot=0;
+        pes=0;
+    }
+
+    printf("\nSomma Pesato\t=%.3f\t",som);
+    printf("\nSomma dei pesi\t=%.3f\n",somPes);
+    printf("Media Pesata\t=%.3f\n",som/somPes);
+
+    fclose(fp);
+    main();
+}
+
+void nomimate(char nMat[],int dim){
+char nMat[10];
+FILE * fp = ("listaMat","w");
+do{
+    fprintf(fp,"%s",nMat);
+}while(!agg(0));
+fclose(fp);
+}
