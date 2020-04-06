@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1542915735 source:c:\users\sheha\desktop\ling. c\struct\fun.c
+	"prototipi.h"
+
+1542916177 c:\users\sheha\desktop\ling. c\struct\prototipi.h
+
+1542916001 source:c:\users\sheha\desktop\ling. c\struct\main.c
+	<stdio.h>
+	<stdlib.h>
+	"prototipi.h"
+
+1584119215 source:c:\users\sheha_xp3yxp0\onedrive\proj c\struct.exe\fun.c
+	<stdio.h>
+	<stdlib.h>
+	"prototipi.h"
+
+1584117281 c:\users\sheha_xp3yxp0\onedrive\proj c\struct.exe\prototipi.h
+
+1584117496 source:c:\users\sheha_xp3yxp0\onedrive\proj c\struct.exe\main.c
+	<stdio.h>
+	<stdlib.h>
+	"prototipi.h"
+
