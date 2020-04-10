@@ -1,0 +1,28 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+FILE * fp = fopen("esrcizio.txt","w");
+
+int c,i,j,scelta;
+
+i=j;
+
+fprintf(fp,"%d",i=0);
+fscanf(fp,"%d",j);
+
+///Appendere
+do{
+     scanf("%d", &c);
+     fprintf(fp,"%d\n", c);
+     printf("scegli 0 per uscire");
+     scanf("%d",&scelta);
+     j++;
+}while(scelta!=0);
+
+fprintf(fp,"%d",j);
+fclose(fp);
+
+    return 0;
+}

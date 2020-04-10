@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1549876151 source:c:\users\sheha\onedrive\proj c\ling. c\prova\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+

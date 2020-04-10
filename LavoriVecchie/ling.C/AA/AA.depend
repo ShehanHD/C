@@ -1,0 +1,54 @@
+# depslib dependency file v1.0
+1549058129 source:c:\users\sheha\onedrive\proj c\ling. c\aa\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1549058106 c:\users\sheha\onedrive\proj c\ling. c\aa\prot.h
+
+1549058163 source:c:\users\sheha\onedrive\proj c\ling. c\aa\def.c
+	"prot.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1549058129 source:c:\users\sheha\desktop\aa\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1549063166 source:c:\users\sheha\desktop\aa\def.c
+	"prot.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1549058106 c:\users\sheha\desktop\aa\prot.h
+
+1549103849 source:c:\users\sheha\documents\aa\def.c
+	"prot.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1549058106 c:\users\sheha\documents\aa\prot.h
+
+1549058129 source:c:\users\sheha\documents\aa\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1549058129 source:c:\users\sheha\onedrive\proj c\ling.c\aa\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1549902648 source:c:\users\sheha\onedrive\proj c\ling.c\aa\def.c
+	"prot.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+
+1549878852 c:\users\sheha\onedrive\proj c\ling.c\aa\prot.h
+

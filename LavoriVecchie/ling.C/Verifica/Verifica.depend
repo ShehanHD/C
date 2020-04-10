@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1543511765 source:c:\users\sheha\onedrive\proj c\ling. c\verifica\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1543594151 source:c:\users\sheha\onedrive\proj c\ling. c\verifica\traccia2.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+

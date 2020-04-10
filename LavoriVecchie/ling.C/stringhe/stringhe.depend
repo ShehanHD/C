@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1543957605 source:c:\users\sheha\onedrive\proj c\ling. c\stringhe\main.c
+	<stdio.h>
+	<stdlib.h>
+	"stringhe.h"
+
+1543957515 c:\users\sheha\onedrive\proj c\ling. c\stringhe\stringhe.h
+

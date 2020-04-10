@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1546070287 source:/home/shehanhd/Documents/C/ES4/main.c
+	<stdio.h>
+	<stdlib.h>
+

@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    char c[20];
+    int num;
+    FILE * fp;
+
+    printf("inserisi il nome di file: ");
+    scanf("%s",c);
+
+    fp=fopen(c,"r");
+
+    fscanf(fp,"%d",&num);
+    fprintf("%d",num);
+
+if(fp){
+        do{
+
+            printf("%d",num);
+        }while(num!=feof);
+    }
+    fclose(fp);
+    return 0;
+}

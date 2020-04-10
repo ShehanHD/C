@@ -1,0 +1,48 @@
+//#define x 15
+/*!
+* \li STRUCT
+* \li  -La Struct
+* \li   -#contiene le dati
+* \li   -#fa ripetizioni
+*/
+struct persona{
+	char nome[15];      /**< Inserimento di nome nel struct*/
+	char cognome[15];   /**< Inserimento di cognome nel struct*/
+	int eta;            /**< Inserimento di eta nel struct*/
+};
+
+/*!
+* \brief Questo funzioa fa caricare le dati
+* \param persona dip[] e' il structer che abbiamo creato prima
+* \param dim e' il numero di persone
+*/
+void carica(persona p dip[], int dim);
+
+/*!
+* \brief Questo funzioa fa stampare le dati
+* \param persona dip[] e' il structer che abbiamo creato prima
+* \param dim e' il numero di persone
+*/
+void stampa(persona p dip[], int dim);
+
+/*!
+* \brief Questo funzioa fa ordinamento delle dati su nome
+* \param persona dip[] e' il structer che abbiamo creato prima
+* \param dim e' il numero di persone
+*/
+void ordNome(persona p dip[], int dim);
+
+/*!
+* \brief Questo funzioa fa ordinamento delle dati su cognome
+* \param persona dip[] e' il structer che abbiamo creato prima
+* \param dim e' il numero di persone
+*/
+void ordCognome(persona p dip[], int dim);
+
+
+/*!
+* \brief Questo funzioa fa ordinamento delle dati su eta
+* \param persona dip[] e' il structer che abbiamo creato prima
+* \param dim e' il numero di persone
+*/
+void ordEta(persona p dip[], int dim);

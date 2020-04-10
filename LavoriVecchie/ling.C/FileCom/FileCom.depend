@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1545812098 source:c:\users\sheha\onedrive\proj c\ling. c\filecom\main.c
+	<stdio.h>
+	<stdlib.h>
+	"proto.h"
+
+1545812098 c:\users\sheha\onedrive\proj c\ling. c\filecom\proto.h
+
