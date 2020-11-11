@@ -31,7 +31,7 @@ scanf("%d",&x);
 ///controlla che la scelta valida o no
 if(x<0||x>2){
     system("cls");
-    printf("Inserimento sbaliatao!\n\n");
+    printf("Inserimento sbagliato!\n\n");
     accesso();
 }
 
