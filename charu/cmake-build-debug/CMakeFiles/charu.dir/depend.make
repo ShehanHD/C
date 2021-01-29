@@ -5,5 +5,4 @@ CMakeFiles/charu.dir/def.c.obj: ../def.c
 CMakeFiles/charu.dir/def.c.obj: ../test.h
 
 CMakeFiles/charu.dir/main.c.obj: ../main.c
-CMakeFiles/charu.dir/main.c.obj: ../test.h
 

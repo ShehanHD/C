@@ -9,8 +9,8 @@
 E:/Projects/C/charu/main.c
 stdio.h
 -
-test.h
-E:/Projects/C/charu/test.h
-
-E:/Projects/C/charu/test.h
+stdlib.h
+-
+string.h
+-
 

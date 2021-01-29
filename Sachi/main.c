@@ -6,7 +6,7 @@ int main()
 {
     int a=54325;
     char buffer[20];
-    itoa(a,buffer,2);
+    itoa(a,buffer);
     printf("Binary value = %s\n", buffer);
 
     itoa(a,buffer,10);
