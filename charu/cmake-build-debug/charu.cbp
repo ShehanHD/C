@@ -74,6 +74,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="E:/Projects/C/charu/Prova.h">
+			<Option target="charu"/>
+		</Unit>
 		<Unit filename="E:/Projects/C/charu/def.c">
 			<Option target="charu"/>
 		</Unit>
